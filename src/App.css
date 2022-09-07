@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+}
+
+.app-title{
+
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 80px;
+  font-family: 'Press Start 2P', cursive;
+  color: #FFDC00;
+  text-shadow:  1px 1px 0 #344d9e,
+  -1px 1px 0 #344d9e,
+  1px 1px 0 #344d9e,
+  -1px -1px 0 #344d9e,
+  1px 1px 0 #344d9e,
+  1px -1px 0 #344d9e,
+  -1px 1px 0 #344d9e,
+  1px 0px 0 #344d9e,
+  2px 2px 0 #344d9e,
+  -2px 2px 0 #344d9e,
+  2px -2px 0 #344d9e,
+  -2px -2px 0 #344d9e,
+  0px 2px 0 #344d9e,
+  0px -2px 0 #344d9e,
+  -2px 0px 0 #344d9e,
+  2px 0px 0 #344d9e,
+  1px 2px 0 #344d9e,
+  -1px 2px 0 #344d9e,
+  1px -2px 0 #344d9e,
+  -1px -2px 0 #344d9e,
+  2px 1px 0 #344d9e,
+  -2px 1px 0 #344d9e,
+  2px -1px 0 #344d9e,
+  -2px -1px 0 #344d9e;
+
+}

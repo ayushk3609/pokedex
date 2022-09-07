@@ -1,0 +1,121 @@
+.card-list {
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-container {
+    position: relative;
+    height:30vw;
+    width: 23%;
+    margin: 10px;
+    background: rgba(31, 30, 30, 0.28);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(31, 30, 30, 0.66);
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    text-transform: capitalize;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+
+  .viz{
+
+    width: 70%;
+    height: 65%;
+    margin: 10%;
+
+  }
+
+  .title{
+
+    position: absolute;
+    top:80%;
+    left:20%;
+    right:25%;
+    bottom:1%;
+    max-width: 500px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+  }
+
+  .types{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: space-around;
+    margin: 10%;
+    position: absolute;
+    top:65%;
+    
+  }
+
+  .btn{
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing:inherit;
+    font-family: monospace;
+    font-weight:bolder;
+  }
+  
+  .fire{
+    background-color: orangered;
+  }
+
+  .water{
+    background-color: rgb(35, 216, 223);
+  }
+
+  .bug{
+    background-color: rgb(92, 95, 141);
+  }
+
+  .ground{
+    background-color: rgb(165, 108, 42);
+  }
+
+  .poison{
+    background-color:blueviolet
+  }
+
+  .flying{
+    background-color: rgb(37, 184, 164);
+  }
+
+  .grass{
+    background-color: green;
+  }
+  .electric{
+    background-color: rgb(216, 216, 6);
+  }
+  .fairy{
+    background-color: pink;
+  }
+  .fighting{
+    background-color: rgb(235, 8, 8);
+  }
+  .psychic{
+    background-color: rgb(238, 153, 153);
+  }
+  .rock{
+    background-color: rgb(99, 96, 96);
+  }
+  .steel{
+    background-color: rgb(25, 0, 39);
+  }
+  .ice{
+    background-color: aqua;
+  }
+  .dragon{
+    background-color: rgb(128, 81, 11);
+  }

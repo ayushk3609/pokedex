@@ -1,0 +1,83 @@
+.conatiner{
+  
+}
+
+.design{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+  width: 25%;
+}
+
+.bluebtn{
+
+  box-sizing: border-box;
+  padding: 25px;
+  border-radius: 30px;
+  border-width: 7px;
+  background-color: rgb(4, 4, 136);
+  border-color: white;
+}
+
+.bluebtn:hover{
+  background-color: rgb(12, 12, 245);
+}
+
+.redbtn{
+  border-radius: 10px;
+  padding:5px;
+  background-color: red;
+  border-color: white;
+}
+
+.yellowbtn{
+  border-radius: 10px;
+  padding:5px;
+  background-color: rgb(216, 216, 54);
+  border-color: white;
+}
+
+.greenbtn{
+  border-radius: 10px;
+  padding:5px;
+  background-color: rgb(11, 73, 11);
+  border-color: white;
+}
+
+.dex{
+
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 50vw;
+  border-color: black;
+  background-color: rgb(185, 8, 8);
+  border-style: solid;
+  border-color: #171717;
+  
+  
+}
+
+
+.search-box {
+    -webkit-appearance: none;
+    outline: none;
+    padding: 10px;
+    width: 190px;
+    line-height: 30px;
+    margin: 30px;
+    margin-top: 10px;
+    background-color: rgb(176, 243, 69);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    
+  }
+  .mainLoginInput::-webkit-input-placeholder { 
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .mainLoginInput:-moz-placeholder { 
+    font-family: 'Press Start 2P', cursive;
+  }
+  
